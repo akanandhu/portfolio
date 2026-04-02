@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ArrowUpRight, Mail, Phone } from "lucide-react";
-import { VicProfilePhoto } from "@/components/profile-photo";
+import { ProfilePhoto } from "@/components/profile-photo";
 import { portfolioContact } from "@/lib/contact";
 import type { ProjectListItem } from "@/lib/projects";
 
@@ -16,7 +16,7 @@ export function ProjectDetailCta({ meta }: ProjectDetailCtaProps) {
     <section className="flex flex-col gap-8 overflow-hidden rounded-[2rem] border border-zinc-800 bg-zinc-950 px-6 py-8 text-zinc-50 sm:flex-row sm:items-center sm:justify-between sm:gap-10 sm:px-10 sm:py-10">
       <div className="flex min-w-0 flex-1 flex-col gap-5 sm:flex-row sm:items-center sm:gap-6">
         <div className="size-16 shrink-0 overflow-hidden rounded-2xl border border-zinc-700 bg-zinc-900 sm:size-[4.5rem]">
-          <VicProfilePhoto className="h-full w-full shrink-0 rounded-none ring-0" />
+          <ProfilePhoto className="h-full w-full shrink-0 rounded-none ring-0" />
         </div>
         <div className="min-w-0 space-y-4">
           <p className="max-w-md text-lg font-medium leading-snug tracking-tight text-zinc-50">
